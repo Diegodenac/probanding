@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build project
-      run: npm run build -- --output-path=dist --base-href=https://github.com/Diegodenac/probanding.git
+      run: npm run build -- --output-path=dist --base-href=--base-href=https://Diegodenac.github.io/probanding/
 
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@v4
